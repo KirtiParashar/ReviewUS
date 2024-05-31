@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="query.css">
+</head>
+
+<body>
+    <div class="container" style="display:static;">
+        <div class="popup" id="popup">
+            <h2>Login Form</h2>
+            <!-- <button onclick="testFunc();" class="login" style="border-radius: 10px; border-style: static; height: 40px; width: 100px;">Login</button> -->
+           
+            <form>
+                <div style="justify-content: center;">
+                    <input type="email" name="rname" id="rname" class="rname" placeholder="Email Address" style="width: 250px; height: 35px; margin-bottom: 20px;">
+                </div>
+                <div style="justify-content: end; display: relative;">    
+                    <input type="password" name="pass" id="pass" placeholder="Password" style="width: 250px; height: 35px; margin-bottom: 10px;">
+                </div>
+                <div class="link">
+                    <a href="/">Forgot Your Password</a>
+                    <br>
+                    </div>
+                    <input class="bttn" type="submit" value="Submit"></input>
+                </form>
+                    <form>
+                        <label for="signup" method="post">New User Register here<button class="signup" style="border-radius: 10px; border-style: static; height: 40px; width: 100px;">Sign Up</button></label>
+                        <div>
+                            <input type="text" placeholder="First Name">
+                        </div>
+                        <div style="justify-content: center;">
+                            <input type="email" name="rname" id="rname" class="rname" placeholder="Email Address" style="width: 250px; height: 35px; margin-bottom: 20px;">
+                        </div>
+                        <div style="justify-content: end; display: relative;">    
+                            <input type="password" name="pass" id="pass" placeholder="Password" style="width: 250px; height: 35px; margin-bottom: 10px;">
+                        </div>
+                           
+                            </form>
+        </div>
+    </div>
+</body>
+<script>
+    window.onload = setTimeout(openPopup, 1000);
+    let popup = document.getElementById("popup");
+    function openPopup()
+    {
+        popup.classList.add("open-popup");
+    }
+    function closePopup()
+    {
+        popup.classList.remove("open-popup");
+    }
+    
+    
+    </script>
+    <script>
+        $(document).ready(function() {
+
+function testFunc() {
+    $('.rname').style.visibility = 'hidden';
+}
+
+});
+    </script>
+</html>
+
+
+
+
+
+
+
+    <!-- //     $(document).ready(function()
+    // {
+    //     $(".login").click(function(event){
+    //         $(this).hide();
+
+    //     });
+        // $(".NameId").hover(function()
+        // {
+        //     $("div").show();
+        //     $(this).hide();
+        //     $(".menu").show();
+        // })
+        // $(".NameId").mouseout(function()
+        // {
+        //     $("div").hide();
+        //     $(".b").show();
+        //     $(".menu").hide();
+        // })
+    // }); -->
+
+
+
+<!-- <button type="submit" class="btn">Submit</button> -->
+
+
+
+
+<!-- <img src="me.jpg" >
+    <h2>Thank You!</h2>
+    <p>Your Details Has Been Successfully Submited. Thanks!</p>
+    <button type="button" onclick="closePopup()">Ok</button> -->
+<!-- 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function()
+    {
+        $(".menu").hide();
+        $(".NameId").hover(function()
+        {
+            $("div").show();
+            $(this).hide();
+            $(".menu").show();
+        })
+        $(".NameId").mouseout(function()
+        {
+            $("div").hide();
+            $(".b").show();
+            $(".menu").hide();
+        })
+    });
+    </script>  -->
+
+<!-- <h2>
+    Login Into Your Account
+</h2><br> -->
+
+<!-- // $(".login").click(function(){
+//     $(this).hide();
+// });
+// function hover_b()
+// {
+//     this.
+// } -->
+
+
+<!-- <input type="button" value="=" class="b">
+
+    <div class="menu">
+        <input type="button" value="x" class="b0">
+    </div> -->
+
+<!-- <input type="button" value="read" class="b1"> -->
+<!-- <input type="button" value="read" class="b2"> -->
+<!-- // $(".b1").click(function()
+    // {
+    //     $(this).hide();
+        // $("body").append("<img width=80px src='me.jpg'>");
+        // $("b").hide();
+        
+        
+    // });
+    // $(".b2").click(function()
+    // {
+    //     $("body").hide();
+    // }) -->
